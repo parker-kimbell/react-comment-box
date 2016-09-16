@@ -1,55 +1,12 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## React Comment Box Solution
 
-# React Tutorial
+This is my solution for the classic comment box tutorial for React.
 
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
-
-## To use
-
-There are several simple server implementations included. They all serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server with one of the following:
-
-### Node
+To run this you'll need to start up the included local Node server. I kept the server local for the sake of simplicity.
 
 ```sh
 npm install
 node server.js
 ```
 
-### Python
-
-```sh
-pip install -r requirements.txt
-python server.py
-```
-
-### Ruby
-```sh
-ruby server.rb
-```
-
-### PHP
-```sh
-php server.php
-```
-
-### Go
-```sh
-go run server.go
-```
-
-### Perl
-
-```sh
-cpan Mojolicious
-perl server.pl
-```
-
-And visit <http://localhost:3000/>. Try opening multiple tabs!
-
-## Changing the port
-
-You can change the port number by setting the `$PORT` environment variable before invoking any of the scripts above, e.g.,
-
-```sh
-PORT=3001 node server.js
-```
+Open your browser to the localhost port that is printed in the server console to view the app. It's functionality is to give the user the ability to add comments to a local database and coordinate the views of that data between clients.
